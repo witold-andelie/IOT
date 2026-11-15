@@ -401,6 +401,8 @@ Run the commands from **Git Bash**, or open a shell in the container first:
 
 ## 9. Documentation and team workflow
 
+- **Team roles, video plan and schedule:** [`docs/team-plan.md`](docs/team-plan.md)
+- **How to contribute (pull requests, step by step):** [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - **Technical documentation** (name, technologies, hardware proposal, costs, sustainability):
   [`docs/technical-documentation.md`](docs/technical-documentation.md) (PDF: [`docs/technical-documentation.pdf`](docs/technical-documentation.pdf))
 - **Never commit `.env`** or any password; the repository is public. `.gitignore` already excludes it.
