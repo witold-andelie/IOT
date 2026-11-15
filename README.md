@@ -253,6 +253,7 @@ IOT/
     ├── technical-documentation.md   solution name, technologies, hardware, costs, sustainability
     ├── technical-documentation.pdf  the same document as PDF (for Moodle)
     └── images/dashboard.png
+video/                      video presentation (Remotion + Kokoro TTS), see video/README.md
 ```
 
 ### Database tables

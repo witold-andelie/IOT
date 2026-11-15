@@ -15,3 +15,10 @@ video/out/
 
 # OS
 .DS_Store
+
+# TTS models and environment (downloaded, see video/tts/generate.py)
+video/tts/models/
+video/tts/.venv/
+
+# local Claude Code skills (Remotion agent skills, installed per machine)
+.claude/

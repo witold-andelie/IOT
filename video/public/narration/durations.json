@@ -1,0 +1,56 @@
+[
+  {
+    "scene": 1,
+    "title": "Opening slide",
+    "file": "narration/scene-01.wav",
+    "seconds": 12.33
+  },
+  {
+    "scene": 2,
+    "title": "Motivation",
+    "file": "narration/scene-02.wav",
+    "seconds": 31.35
+  },
+  {
+    "scene": 3,
+    "title": "Similar solutions",
+    "file": "narration/scene-03.wav",
+    "seconds": 24.55
+  },
+  {
+    "scene": 4,
+    "title": "What makes our solution different",
+    "file": "narration/scene-04.wav",
+    "seconds": 19.65
+  },
+  {
+    "scene": 5,
+    "title": "How it works",
+    "file": "narration/scene-05.wav",
+    "seconds": 42.94
+  },
+  {
+    "scene": 6,
+    "title": "Live demo",
+    "file": "narration/scene-06.wav",
+    "seconds": 36.54
+  },
+  {
+    "scene": 7,
+    "title": "Hardware",
+    "file": "narration/scene-07.wav",
+    "seconds": 21.57
+  },
+  {
+    "scene": 8,
+    "title": "Costs",
+    "file": "narration/scene-08.wav",
+    "seconds": 29.8
+  },
+  {
+    "scene": 9,
+    "title": "Closing slide",
+    "file": "narration/scene-09.wav",
+    "seconds": 4.78
+  }
+]
