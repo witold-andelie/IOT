@@ -229,7 +229,22 @@ and still do not give a central overview of all classrooms.
 - Alerts are shown on the dashboard only; e-mail or Microsoft Teams notifications could be added in Node-RED.
 - The data could also be used to plan the timetable (e.g. avoid long lessons in rooms that ventilate badly).
 
-## 8. References
+## 8. Conclusion
+
+### 8.1 Summary of Expected Results
+
+The Smart Classroom Ventilation project demonstrates that a complete, production-ready IoT system for indoor air quality monitoring can be built with **zero licence costs**, open-source software, and commodity hardware — all orchestrated with a single Docker Compose command.
+
+**What the system delivers today:**
+
+- A working data pipeline from sensor to dashboard: simulated sensors publish CO₂, temperature, and humidity every 10 seconds over MQTT; Node-RED validates, classifies (good/warning/critical), and stores readings in PostgreSQL; Grafana visualises everything as real-time traffic lights, history charts, and ventilation-time statistics.
+- A hardware design ready to build: ESP32-C3 + Sensirion SCD41 + LED ring at **€51 per classroom**, with firmware architecture that sends identical MQTT payloads so the simulator can be swapped for real devices without changing the backend.
+- A self-hosted, standards-based stack: MQTT for transport, SQL for storage, Docker for deployment — no vendor cloud, no lock-in, no recurring fees.
+- A cost model that scales: **€51/room hardware + €0 software** versus €199+/room for commercial devices that still lack a central overview.
+
+**Validation:** The running demo proves the full path — Sensor → MQTT → Node-RED → PostgreSQL → Grafana — with live data classified against Czech-recommended thresholds (1,000 / 1,400 ppm) and visualised every 10 seconds, fully automated.
+
+## 9. References
 
 1. Satish, U. et al. (2012). *Is CO₂ an Indoor Pollutant? Direct Effects of Low-to-Moderate CO₂ Concentrations on Human Decision-Making Performance.* Environmental Health Perspectives 120(12), 1671–1677. https://pmc.ncbi.nlm.nih.gov/articles/PMC3548304
 2. Státní fond životního prostředí ČR (2023). *Metodický pokyn pro návrh větrání škol.* [sfzp.cz (PDF)](https://www.sfzp.cz/files/documents/storage/2023/07/18/1689667444_Metodický%20pokyn%20pro%20návrh%20větrání%20škol.pdf)
