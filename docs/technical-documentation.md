@@ -231,8 +231,6 @@ and still do not give a central overview of all classrooms.
 
 ## 8. Conclusion
 
-### 8.1 Summary of Expected Results
-
 The Smart Classroom Ventilation project demonstrates that a complete, production-ready IoT system for indoor air quality monitoring can be built with **zero licence costs**, open-source software, and commodity hardware — all orchestrated with a single Docker Compose command.
 
 **What the system delivers today:**
@@ -246,7 +244,16 @@ The Smart Classroom Ventilation project demonstrates that a complete, production
 
 ## 9. References
 
-1. Satish, U. et al. (2012). *Is CO₂ an Indoor Pollutant? Direct Effects of Low-to-Moderate CO₂ Concentrations on Human Decision-Making Performance.* Environmental Health Perspectives 120(12), 1671–1677. https://pmc.ncbi.nlm.nih.gov/articles/PMC3548304
-2. Státní fond životního prostředí ČR (2023). *Metodický pokyn pro návrh větrání škol.* [sfzp.cz (PDF)](https://www.sfzp.cz/files/documents/storage/2023/07/18/1689667444_Metodický%20pokyn%20pro%20návrh%20větrání%20škol.pdf)
-3. Sensirion SCD41 product information. https://sensirion.com/products/catalog/SCD41
-4. Node-RED: https://nodered.org · Eclipse Mosquitto: https://mosquitto.org · PostgreSQL: https://www.postgresql.org · Grafana: https://grafana.com
+[1] U. Satish, M. J. Mendell, K. Shekhar, T. Hotchi, D. Sullivan, S. Streufert, and W. J. Fisk, "Is CO₂ an indoor pollutant? Direct effects of low-to-moderate CO₂ concentrations on human decision-making performance," *Environmental Health Perspectives*, vol. 120, no. 12, pp. 1671–1677, Dec. 2012. doi: 10.1289/ehp.1104789.
+
+[2] Státní fond životního prostředí ČR, *Metodický pokyn pro návrh větrání škol*, 2023. [Online]. Available: https://www.sfzp.cz/files/documents/storage/2023/07/18/1689667444_Metodick%C3%BD%20pokyn%20pro%20n%C3%A1vrh%20v%C4%9Btr%C3%A1n%C3%AD%20%C5%A1kol.pdf
+
+[3] Sensirion AG, *SCD41 Datasheet: Miniaturized CO₂ Sensor for High-Volume Applications*, 2023. [Online]. Available: https://sensirion.com/media/documents/9E1F6D2D/63B3A9C5/Sensirion_CO2_Sensors_SCD41_Datasheet.pdf
+
+[4] Node-RED Contributors, *Node-RED: Low-code programming for event-driven applications*, 2024. [Online]. Available: https://nodered.org
+
+[5] Eclipse Mosquitto Project, *Eclipse Mosquitto: An open source MQTT broker*, 2024. [Online]. Available: https://mosquitto.org
+
+[6] The PostgreSQL Global Development Group, *PostgreSQL 18 Documentation*, 2024. [Online]. Available: https://www.postgresql.org/docs/
+
+[7] Grafana Labs, *Grafana OSS: Open-source observability platform*, 2024. [Online]. Available: https://grafana.com/docs/grafana/
